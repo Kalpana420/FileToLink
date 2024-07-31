@@ -36,5 +36,5 @@ class Var(object):
     else:
         URL = "https://filetolink-7gln.onrender.com".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://u0947706:iDPVnxykM3VU3z5H@cluster0.aoy15hn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'vj_botz'))
-    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'updatechannel_tele'))
+    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split())) 
